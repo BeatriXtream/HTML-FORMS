@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+  <title>survey-form</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">GeeksforGeeks Survey Form</h1>
+
+    <form id="survey-form">
+      <div class="form-control">
+        <label id="name-label">
+          Name:
+          <input id="name" type="text" placeholder="Enter  your name" required />
+        </label>
+      </div>
+
+      <br>
+
+      <div class="form-control">
+        <label id="email-label">
+          Email:
+          <input id="email" type="email" placeholder="Enter your email" required />
+        </label>
+      </div>
+
+      <br>
+
+      <div class="form-control">
+        <label id="number-label">
+          Age:
+          <input id="number" type="number" placeholder="Enter Your Age" required />
+        </label>
+      </div>
+
+      <br>
+      <p>Which option best describes you?</p>
+      <div class="form-control">
+        <select id="dropdown">
+          <option>Student</option>
+          <option>Business man</option>
+          <option>Teacher</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-control">
+        <p> Would you recommed GeeksForGeeks to a friend?</p>
+        <label>Yes
+          <input type="radio" name="radio-group" value="Yes" />
+        </label>
+
+        <br>
+
+        </label>No
+        <input type="radio" name="radio-group" value="No" />
+        </label>
+
+        <br>
+
+        <label>Maybe
+          <input type="radio" name="radio-group" value="Maybe" />
+        </label>
+
+        </label>
+      </div>
+      <br>
+      <div class="form-control">
+        <p> Languages and Frameworks know (Check all that apply)</p>
+        <label>C
+          <input type="radio" name="readio-group" value="C" />
+        </label>
+
+        <br>
+
+        <label>C++
+          <input type="radio" name="radio-group" value="C++" />
+        </label>
+
+        <br>
+
+        <label>C#
+          <input type="radio" name="radio-group" value="C#" />
+        </label>
+
+        <br>
+
+        <label>Java
+          <input type="radio" name="radio-group" value="Java" />
+        </label>
+
+        <br>
+
+        <label>Python
+          <input type="radio" name="radio-group" value="Python" />
+        </label>
+
+        <br>
+
+        <label>JavaScript
+          <input type="radio" name="radio-group" value="JavaScript" />
+
+          <br>
+
+          <label>React
+            <input type="radio" name="radio-group" value="React" />
+          </label>
+
+          <br>
+
+          <label>Django
+            <input type="radio" name="radio-group" value="Django" />
+          </label>
+
+          <br>
+
+          <label>Spring
+            <input type="radio" name="radio-group" value="Spring" />
+          </label>
+        </label>
+        <div class="form-control">
+          <p>Any comments or suggestions</p>
+        </div>
+
+        <textarea></textarea>
+      </div>
+      <br>
+      <div class="form-control">
+        <button id="submit" type="submit">Submit </button>
+
+      </div>
+
+    </form>
+
+</body>
+
+</html>

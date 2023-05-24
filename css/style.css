@@ -1,0 +1,25 @@
+
+
+body {
+  display :flax ;
+  justify-content:center; 
+  font-family:Helvetica;
+}
+.container {
+  background: scroll green;
+  position: relative;
+  height: 800px;
+}
+.title{
+text-align: center;
+}
+
+#survey-form{
+  width: 500px; 
+   height: 700px; 
+   background: #ffffff;
+   position: absolute;
+   top: 100px;
+   left: 200px;
+   margin: -25px 0 0 -25px;
+}
